@@ -3,7 +3,7 @@ from torchvision import transforms
 import torch
 
 # model = 'mobilenet_v2', 'densenet121', 'alexnet'
- 
+# n = num of images
 def detect(n, model):
     model = torch.hub.load('pytorch/vision:v0.10.0', model, pretrained=True)
     model.eval()
