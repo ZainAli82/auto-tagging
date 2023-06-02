@@ -1,6 +1,5 @@
 from PIL import Image
 from torchvision import transforms
-import os
 import torch
 
 # model = 'mobilenet_v2', 'densenet121', 'alexnet'
